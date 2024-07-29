@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status, Depends, Query
+from fastapi import APIRouter, HTTPException, status, Depends
 from fastapi.responses import JSONResponse
 from app.models.Candidate import Candidate
 from app.services import CandidateService
