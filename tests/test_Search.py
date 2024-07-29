@@ -10,7 +10,7 @@ client = TestClient(app)
 @pytest.fixture
 def mock_current_user():
     return {
-        "uuid": "f2bf23d7-3196-465b-9002-817e600d86fe",
+        "uuid": "f2bf23d7-3196-465b-9002-817e600d86fe", #change this with one from the database
     }
 
 @pytest.fixture
